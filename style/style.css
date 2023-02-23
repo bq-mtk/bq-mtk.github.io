@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
 :root {
 	--accent: #A568F2;
 	--background: rgb(34, 33, 41);
@@ -9,14 +11,14 @@
 @custom-media --phone (max-width: 684px);
 @custom-media --tablet (max-width: 900px);
 @font-face {
-	font-family: Fira Code;
+    font-family: 'Roboto Mono', monospace;
 	font-style: normal;
 	font-weight: 400;
 	src: url(0fe15bb5eea5828156c892b0708bea40.woff) format("woff");
 	font-display: swap;
 }
 @font-face {
-	font-family: Fira Code;
+    font-family: 'Roboto Mono', monospace;
 	font-style: normal;
 	font-weight: 800;
 	src: url(910c4f69908ca1b54b0fed395a9ad573.woff) format("woff");
@@ -321,7 +323,7 @@ html {
 body {
 	margin: 0;
 	padding: 0;
-	font-family: Fira Code,Monaco,Consolas,Ubuntu Mono,monospace;
+    font-family: 'Roboto Mono', monospace;
 	font-size: 1rem;
 	line-height: 1.54;
 	letter-spacing: -.02em;
@@ -403,7 +405,7 @@ figure figcaption.right {
 	text-align: right;
 }
 code,kbd {
-	font-family: Fira Code,Monaco,Consolas,Ubuntu Mono,monospace;
+    font-family: 'Roboto Mono', monospace;
 	font-feature-settings: normal;
 	background: rgba(120, 226, 160, 0.2);
 	color: #A568F2;
@@ -889,7 +891,7 @@ h1:hover a,h2:hover a,h3:hover a,h4:hover a {
 }
 code[class*=language-],pre[class*=language-] {
 	background: none;
-	font-family: inherit,monospace;
+    font-family: 'Roboto Mono', monospace;
 	text-align: left;
 	white-space: pre;
 	word-spacing: normal;
